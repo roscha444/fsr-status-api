@@ -26,10 +26,11 @@ app.use('/api/v1/status', status);
 
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 1000;
+const PORT = process.env.PORT || 80;
 
 const server = app.listen(PORT, function () {
     console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`.green);
+    app.emit("app_started")
 });
 
 //handle unhandeld promise rejection
@@ -37,3 +38,5 @@ process.on('unhandledRejection', (error, promise) => {
     console.log(`Error: ${error.message}`.red);
     server.close(() => process.exit(1));
 });
+
+module.exports = app;

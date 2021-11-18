@@ -21,7 +21,7 @@ exports.setOpen = asyncHandler(async (req, res, next) => {
 
     open = true;
 
-    res.status(200).json({
+    res.status(201).json({
         success: true, open: open
     });
 
@@ -37,7 +37,7 @@ exports.setClose = asyncHandler(async (req, res, next) => {
 
     open = false;
 
-    res.status(200).json({
+    res.status(201).json({
         success: true, open: open
     });
 
