@@ -9,7 +9,7 @@ Simple test suite is added
 
 # Deploy
 
-Commits or PullRequests to the master branch triggers a automatic build.
+Commits to the master branch triggers a automatic build.
 
 Automatic build can be found here:
 https://fsr-status-api.onrender.com
