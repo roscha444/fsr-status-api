@@ -1,5 +1,5 @@
 # fsr-status-api
-ExpressJS API to communicate with a Raspberry PI Zero and represent the status of the Fachschaftsraum [open,closed].
+ExpressJS API to communicate with a Raspberry PI Zero and represents the status of the Fachschaftsraum [open,closed].
 
 # Tests
 
