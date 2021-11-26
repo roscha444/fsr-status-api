@@ -5,6 +5,8 @@ const morgan = require('morgan');
 const cors = require('cors');
 const color = require('colors');
 
+console.log("Starting Server...");
+
 //body parser
 app.use(express.json());
 
