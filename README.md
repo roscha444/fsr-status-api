@@ -11,6 +11,12 @@ Simple test suite is added
 
 https://hub.docker.com/r/roscha444/fsr-status-api
 
+### environment variables:
+API_SECRET=12345
+
+### run
+docker run -d -p 80:80 -e API_SECRET=404 roscha444/fsr-status-api
+
 # Deploy
 
 Commits to the master branch triggers a automatic build.
