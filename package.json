@@ -1,7 +1,6 @@
 {
-  "name": "status-backend",
+  "name": "fsr-status-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "cross-env PORT=7000 API_SECRET=123 NODE_ENV=test jest --testTimeout=10000 --forceExit"
